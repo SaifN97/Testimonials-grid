@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.3rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background: #ecf2f8;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 88%;
+  margin: 0 auto;
+}
+
+.testimonials {
+  margin: 7rem auto;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 200px 5px 200px rgba(0, 0, 0, 0.1);
+}
+
+.card-light {
+  color: #19212e;
+  background: #fff;
+}
+.card-light .card-header p {
+  color: rgba(25, 33, 46, 0.35);
+}
+.card-light .card-body p {
+  color: rgba(25, 33, 46, 0.5);
+}
+
+.card-dark {
+  color: #cfcfcf;
+  background: #19212e;
+}
+.card-dark .card-header img {
+  border: 2px solid rgba(207, 207, 207, 0.7);
+}
+.card-dark .card-header p {
+  color: rgba(207, 207, 207, 0.5);
+}
+.card-dark .card-body h2 {
+  color: #fff;
+}
+.card-dark .card-body p {
+  color: rgba(207, 207, 207, 0.7);
+}
+.card-dark.voilet {
+  background: url(/bg-pattern-quotation.3944c98d.svg) no-repeat 89% 0%, #7541c8;
+}
+.card-dark.grey {
+  background: #48556a;
+}
+
+.card-wrapper {
+  width: 81%;
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
+  padding: 2.4rem 0;
+}
+.card-wrapper .card-header {
+  font-size: 1.15rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1.16em;
+}
+.card-wrapper .card-header .person-img {
+  margin-right: 1.6rem;
+  width: 11.5%;
+}
+.card-wrapper .card-header .person-img img {
+  border-radius: 50%;
+}
+.card-wrapper .card-header .person-info {
+  line-height: 1.35;
+}
+.card-wrapper .card-body {
+  font-size: 1.365rem;
+  line-height: 1.16;
+}
+.card-wrapper .card-body h2 {
+  margin-bottom: 0.9em;
+}
+.card-wrapper .card-body p {
+  width: 99.8%;
+  font-size: 1.4rem;
+  line-height: 1.27;
+  padding-bottom: 0.58em;
+}
+
+/*# sourceMappingURL=/main.48b3db1d.css.map */

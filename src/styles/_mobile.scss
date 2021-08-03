@@ -1,0 +1,103 @@
+@use 'colors' as *;
+
+.container {
+  width: 88%;
+  margin: 0 auto;
+}
+
+.testimonials {
+  margin: 7rem auto;
+}
+
+//Card
+.card {
+  border-radius: 8px;
+  box-shadow: 200px 5px 200px rgba(0, 0, 0, 0.1);
+}
+
+.card-light {
+  color: $blackish-blue;
+  background: $white;
+  .card-header {
+    p {
+      color: hsla(217, 30%, 14%, 35%);
+    }
+  }
+  .card-body {
+    p {
+      color: hsla(217, 30%, 14%, 50%);
+    }
+  }
+}
+
+.card-dark {
+  color: $light-gray;
+  background: $blackish-blue;
+
+  .card-header {
+    img {
+      border: 2px solid hsla(0, 0%, 81%, 70%);
+    }
+    p {
+      color: hsla(0, 0%, 81%, 50%);
+    }
+  }
+
+  .card-body {
+    h2 {
+      color: $white;
+    }
+    p {
+      color: hsla(0, 0%, 81%, 70%);
+    }
+  }
+
+  &.voilet {
+    background: url(../images/bg-pattern-quotation.svg) no-repeat 89% 0%,
+      $moderate-violet;
+  }
+
+  &.grey {
+    background: $grayish-blue;
+  }
+}
+
+.card-wrapper {
+  width: 81%;
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
+  padding: 2.4rem 0;
+
+  .card-header {
+    font-size: 1.15rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1.16em;
+    .person-img {
+      margin-right: 1.6rem;
+      width: 11.5%;
+      img {
+        // border: 2px solid white;
+        border-radius: 50%;
+      }
+    }
+    .person-info {
+      line-height: 1.35;
+    }
+  }
+
+  .card-body {
+    font-size: 1.365rem;
+    line-height: 1.16;
+    h2 {
+      margin-bottom: 0.9em;
+    }
+    p {
+      width: 99.8%;
+      font-size: 1.4rem;
+      line-height: 1.27;
+      padding-bottom: 0.58em;
+    }
+  }
+}
