@@ -15,7 +15,5 @@
 .DS_Store
 node_modules
 .prettierignore
-README-template.md
-README.md
 style-guide.md
 .cache
