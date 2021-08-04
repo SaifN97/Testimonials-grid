@@ -29,7 +29,7 @@ img {
 
 .card {
   border-radius: 8px;
-  box-shadow: 200px 5px 200px rgba(0, 0, 0, 0.1);
+  box-shadow: 15rem 5rem 40rem rgba(0, 0, 0, 0.1);
 }
 
 .card-light {
@@ -81,7 +81,7 @@ img {
 }
 .card-wrapper .card-header .person-img {
   margin-right: 1.6rem;
-  width: 11.5%;
+  width: 30px;
 }
 .card-wrapper .card-header .person-img img {
   border-radius: 50%;
@@ -101,6 +101,50 @@ img {
   font-size: 1.4rem;
   line-height: 1.27;
   padding-bottom: 0.58em;
+}
+
+@media (min-width: 850px) {
+  .testimonials {
+    margin: 16.5rem auto;
+    width: 77%;
+    display: grid;
+    gap: 2.5rem 3rem;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-template-areas: "card1 card1 card2 card5" "card3 card4 card4 card5";
+  }
+  .testimonials .card1 {
+    grid-area: card1;
+  }
+  .testimonials .card2 {
+    grid-area: card2;
+  }
+  .testimonials .card3 {
+    grid-area: card3;
+  }
+  .testimonials .card4 {
+    grid-area: card4;
+  }
+  .testimonials .card5 {
+    grid-area: card5;
+  }
+  .testimonials .card-wrapper {
+    margin-bottom: 0;
+  }
+  .testimonials .card-wrapper .card-body p {
+    font-size: 1.35rem;
+  }
+  .testimonials .card1 .card-wrapper,
+.testimonials .card4 .card-wrapper {
+    width: 90%;
+  }
+  .testimonials .card2 .card-wrapper,
+.testimonials .card3 .card-wrapper,
+.testimonials .card5 .card-wrapper {
+    width: 77%;
+  }
+  .testimonials .voilet {
+    background: url(/bg-pattern-quotation.3944c98d.svg) no-repeat 82% 0%, #7541c8;
+  }
 }
 
 /*# sourceMappingURL=/main.48b3db1d.css.map */
